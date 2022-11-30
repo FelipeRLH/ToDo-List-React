@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+/* GERAL */
+body {
+    background-color: #495453ea;
+}
+
+.container {
+    margin: auto;
+    max-width: 36.25rem;
+    background-color: #495453;
+    padding: 30px;
+    min-height: 700px;
+    margin-top: 1.875rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 7px 1px rgba(0, 0, 0, 0.4);
+}
+
+.done {
+    text-decoration: line-through;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 70px;
+    color: #fff;
+}
+
+.forminput {
+    width: 500px;
+    border-radius: 5px;
+    padding: 5px;
+    border-width: 1px;
+    outline: none;
+}
+
+.btninput {
+    padding: 5px 10px;
+    background-color: #4aedd7;
+    color: #fff;
+    border-radius: 5px;
+    border-width: 1px;
+}
+
+/* Item da lista */
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+    padding: 0.9375rem;
+    margin-top: 0.625rem;
+}
+
+.card {
+    box-shadow: 0 2px 7px 1px rgba(0, 0, 0, 0.4);
+    background-color: #f7f7f7;
+}
+
+.doneColor {
+    background-color: #cccccc;
+}
+
+
+/* Icones da lista */
+.imgBin {
+    width: 30px;
+}
+
+.imgMark {
+    width: 30px;
+}
